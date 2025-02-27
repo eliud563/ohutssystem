@@ -1,0 +1,76 @@
+/* Home Page Styles */
+.home-container {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Home Title */
+  .home-title {
+    color: green; /* Green color for "Home" */
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Subtitle */
+  .home-container p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Authentication Links Container */
+  .auth-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1cm; /* 1cm spacing between links */
+  }
+  
+  /* Login and Register Links */
+  .auth-links a {
+    color: darkgreen; /* Dark green color */
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .auth-links a:hover {
+    background-color: darkgreen;
+    color: white;
+  }
+  
+  /* Recent Listings Heading */
+  .recent-listings {
+    margin-top: 1cm; /* 1cm spacing downwards */
+  }
+  
+  /* Recent Listings Items */
+  .item-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .item-list li {
+    background: white;
+    color: #007bff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    width: 80%;
+    max-width: 400px;
+    text-align: left;
+  }
+  
+  

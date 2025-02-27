@@ -1,0 +1,14 @@
+.message-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.message-list li {
+    max-width: 5cm; /* Restrict message width */
+    word-wrap: break-word; /* Ensures long words break and wrap */
+    overflow-wrap: break-word; /* Ensures text wraps properly */
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}

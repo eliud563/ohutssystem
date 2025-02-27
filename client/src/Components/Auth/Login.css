@@ -1,0 +1,92 @@
+/* LoginPage.css */
+
+/* Set the background color for the entire login page */
+.login-page {
+    background-color: #007BFF;  /* Blue background */
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the login form with 7cm x 7cm dimensions */
+.login-container {
+    width: 7cm;  /* Set width to 7cm */
+    height: 7cm; /* Set height to 7cm */
+    padding: 20px;
+    background-color: white;  /* White background for contrast */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+/* Login title */
+.login-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #007BFF; /* Match button and background color */
+}
+
+/* Input and label styles */
+.login-label {
+    display: block;
+    font-weight: bold;
+}
+
+.login-input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+}
+
+/* Login button style */
+.login-button {
+    width: 100%;
+    padding: 8px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+/* Forgot Password link */
+.forgot-password {
+    text-align: center;
+    font-size: 0.85rem;
+    margin-top: 5px;
+}
+
+.forgot-password a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Make it responsive */
+@media screen and (max-width: 600px) {
+    .login-container {
+        width: 80%; /* Adjust width for small screens */
+        height: auto; /* Allow height to adapt */
+    }
+}
+

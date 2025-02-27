@@ -1,0 +1,43 @@
+.navbar {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Aligns links properly */
+  }
+  
+  .auth-links {
+    display: flex;
+    align-items: center;
+    gap: 0.4cm; /* 0.4cm horizontal spacing */
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1cm; /* Adds spacing for authenticated user links */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: darkblue; /* Dark blue color */
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: navy; /* Slightly darker blue on hover */
+  }
+  
+  .logout-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: darkred;
+  }
+  

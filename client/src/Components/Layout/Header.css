@@ -1,0 +1,20 @@
+.header {
+    background-color: #0044cc;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}

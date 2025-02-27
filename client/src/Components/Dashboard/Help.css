@@ -1,0 +1,40 @@
+/* Help.css */
+.help-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .help-container h2 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 15px;
+    text-align: center; /* Centers the heading */
+  }
+  
+  .help-container p {
+    color: #555;
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: justify;
+  }
+  
+  /* ✅ Responsive Design */
+  @media (max-width: 600px) {
+    .help-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .help-container h2 {
+      font-size: 22px;
+    }
+  
+    .help-container p {
+      font-size: 15px;
+    }
+  }
+  
